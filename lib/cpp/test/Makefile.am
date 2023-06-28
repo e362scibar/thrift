@@ -17,6 +17,8 @@
 # under the License.
 #
 
+AUTOMAKE_OPTIONS = subdir-objects
+
 noinst_LTLIBRARIES = libtestgencpp.la
 nodist_libtestgencpp_la_SOURCES = \
 	gen-cpp/DebugProtoTest_types.cpp \

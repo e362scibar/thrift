@@ -19,6 +19,8 @@
 
 ACLOCAL_AMFLAGS = -I ./aclocal
 
+AUTOMAKE_OPTIONS = subdir-objects
+
 SUBDIRS = compiler/cpp lib
 
 if WITH_TESTS

@@ -17,6 +17,8 @@
 # under the License.
 #
 
+AUTOMAKE_OPTIONS = subdir-objects
+
 SUBDIRS = . test
 
 pkgconfigdir = $(libdir)/pkgconfig

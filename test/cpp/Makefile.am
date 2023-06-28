@@ -16,6 +16,9 @@
 # specific language governing permissions and limitations
 # under the License.
 #
+
+AUTOMAKE_OPTIONS = subdir-objects
+
 noinst_LTLIBRARIES = libtestgencpp.la libstresstestgencpp.la
 nodist_libtestgencpp_la_SOURCES = \
 	gen-cpp/ThriftTest_constants.cpp \

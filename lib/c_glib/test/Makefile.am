@@ -17,6 +17,8 @@
 # under the License.
 #
 
+AUTOMAKE_OPTIONS = subdir-objects
+
 SUBDIRS =
 
 AM_CPPFLAGS = -g -Wall -I../src $(GLIB_CFLAGS)

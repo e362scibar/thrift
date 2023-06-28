@@ -21,6 +21,8 @@
 # Please see doc/old-thrift-license.txt in the Thrift distribution for
 # details.
 
+AUTOMAKE_OPTIONS = subdir-objects
+
 AM_YFLAGS = -d
 LIBS =
 BUILT_SOURCES =
