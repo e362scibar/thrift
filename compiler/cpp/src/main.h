@@ -28,7 +28,7 @@
  * Defined in the flex library
  */
 
-int yylex(void);
+extern "C" int yylex(void);
 
 int yyparse(void);
 
